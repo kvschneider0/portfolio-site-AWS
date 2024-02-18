@@ -1,20 +1,22 @@
+import { Routes, Route } from "react-router-dom";
+
 function App(): JSX.Element {
+
+  const Home = () => {
+    return (
+      <div>
+        <h1>Home</h1>
+      </div>
+    );
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />}>
+      </Route>
+      <Route path="halla" element={<div>Halla</div>}>
+      </Route>
+    </Routes>
   );
 }
 
