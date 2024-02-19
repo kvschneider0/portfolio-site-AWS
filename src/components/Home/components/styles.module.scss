@@ -1,0 +1,90 @@
+.Section {
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 0;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.FlexBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.SelfieImage {
+  height: 50vh;
+  width: 50vh;
+}
+
+.BooksWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.BookImage {
+  height: 52vh;
+  width: 36vh;
+}
+
+.TechImage {
+  height: 5rem;
+  width: 5rem;
+  margin-right: 1rem;
+}
+
+.TechTable {
+  
+}
+
+.TechTable td {
+  padding: 10px;
+  text-align: center;
+}
+
+.GridWrapper {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.GridItem {
+  align-items: center;
+  background-color: #333;
+  border-radius: 10px;
+  border: 1px solid #000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: flex;
+  height: 5rem;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+  width: 14rem;
+  transition: 0.5s;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.ProjectItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.ProjectImage {
+  height: 20vh;
+  width: 20vh;
+  margin: 20px;
+}
