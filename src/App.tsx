@@ -8,7 +8,7 @@ import styles from "./styles.module.scss";
 
 function App(): JSX.Element {
   return (
-    <div className={styles.App}>
+    <div className={styles.App} style={{backgroundColor: "#000000"}}>
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />}/>

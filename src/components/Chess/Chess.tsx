@@ -2,7 +2,7 @@ import { FC } from "react";
 
 const Chess: FC = () => {
   return (
-    <div>
+    <div style={{ color: "red" }}>
       <h1>Chess</h1>
     </div>
   );
