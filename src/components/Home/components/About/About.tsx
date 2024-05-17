@@ -1,9 +1,10 @@
 import { FC } from "react";
 import styles from "../styles.module.scss";
 
-import book1 from "../../../../assets/pure_white_and_deadly.jpg";
-import book2 from "../../../../assets/forward_the_foundation.jpg";
+import book1 from "../../../../assets/foundation.jpg";
+import book2 from "../../../../assets/loving_what_is.jpg";
 import book3 from "../../../../assets/the_sign_and_the_seal.jpg";
+
 const books = [book1, book2, book3]
 
 const About: FC = () => {
